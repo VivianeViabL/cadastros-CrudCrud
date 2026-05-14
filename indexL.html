@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastrar Clientes</title>
+    <link rel="stylesheet" href="stylesL.css">
+</head>
+<body>
+    <main class="container">
+        <img class="logo" src="Cadastro-.png" alt="Cadastro"/>
+        <p></p>
+        <form class="formulario">
+            <p><label for="nome">Nome Completo: </label>
+            <input class="campo" id="nome" type="text" placeholder="Ex. Marcos Pereira" required></p>
+            <p><label for="email">E-mail: </label>
+            <input class="campo" id="email" type="email" placeholder="Ex. email@exemplo.com" required></p>
+            <button class="botao" id="add" type="button">Adicionar</button>         
+        </form>
+        <h3>Clientes:</h3>
+        <ul id="listaCadastros"></ul>
+    </main>
+    <script src="scriptL.js"></script>
+</body>
+</html>

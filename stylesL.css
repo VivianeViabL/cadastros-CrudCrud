@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("imgFundo.png");
+    background-size: cover;
+    background-position: center;
+    font-family: 'Cambria', Helvetica, sans-serif;
+}
+
+.logo {
+    display: block;
+    margin: 0 auto;
+}
+
+.formulario {
+    background: #59d6cf;
+    padding: 40px;
+    border-radius: 30px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.15);
+
+}
+
+/* Inputs */
+.campo {
+    border: none;
+    border-radius: 20px;
+    padding: 8px;
+    font-size: 15px;
+    outline: none;
+    font-family: 'Cambria', Helvetica, sans-serif;
+
+}
+
+.botao {
+    border: none;
+    border-radius: 25px;
+    padding: 10px;
+    font-size: 17px;
+    color: white;
+    cursor: pointer;
+    background: linear-gradient( 90deg,#ff9f43,#ff3cac);
+    transition: 0.3s;
+    font-family: 'Cambria', Helvetica, sans-serif;
+}
+
+/* Efeito hover no botão */
+.botao:hover {
+    transform: scale(1.05);
+}
